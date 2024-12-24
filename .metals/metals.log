@@ -1067,3 +1067,29 @@ INFO: XNIO NIO Implementation Version 3.8.16.Final
 Dec 25, 2024 12:28:25 AM org.jboss.threads.Version <clinit>
 INFO: JBoss Threads version 3.1.0.Final
 2024.12.25 00:28:25 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.25 00:30:21 INFO  Shutting down server[0m
+2024.12.25 00:30:21 INFO  shutting down Metals[0m
+2024.12.25 00:30:21 INFO  Shut down connection with build server.[0m
+2024.12.25 00:30:21 INFO  BSP server: Dec 25, 2024 12:30:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2024.12.25 00:30:21 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2024.12.25 00:30:21 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2024.12.25 00:30:21 INFO  BSP server:   "method": "build/exit",[0m
+2024.12.25 00:30:21 INFO  BSP server:   "params": null[0m
+2024.12.25 00:30:21 INFO  BSP server: }[0m
+2024.12.25 00:30:21 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2024.12.25 00:30:21 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+Dec 25, 2024 12:30:21 AM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2024.12.25 00:30:39 INFO  Started: Metals version 1.4.1 in folders '/home/nt2311/Projects/Scala/Basics' for client Neovim 0.10.2+v0.10.2.[0m
