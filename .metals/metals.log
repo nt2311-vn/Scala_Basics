@@ -1093,3 +1093,24 @@ INFO: JBoss Threads version 3.1.0.Final
 Dec 25, 2024 12:30:21 AM io.undertow.Undertow stop
 INFO: stopping server: Undertow - 2.2.20.Final
 2024.12.25 00:30:39 INFO  Started: Metals version 1.4.1 in folders '/home/nt2311/Projects/Scala/Basics' for client Neovim 0.10.2+v0.10.2.[0m
+2024.12.25 00:30:39 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.25 00:30:40 INFO  Attempting to connect to the build server...[0m
+2024.12.25 00:30:40 INFO  Running BSP server List(/home/nt2311/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-options-v2.json, --json-launcher-options, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-launcher-options.json, --envs-file, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-envs.json, /home/nt2311/Projects/Scala/Basics)[0m
+2024.12.25 00:30:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/nt2311/Projects/Scala/Basics/.metals/bsp.trace.json or /home/nt2311/.cache/metals/bsp.trace.json[0m
+2024.12.25 00:30:40 INFO  time: Connected to build server in 0.42s[0m
+2024.12.25 00:30:40 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2024.12.25 00:30:40 INFO  running doctor check[0m
+2024.12.25 00:30:40 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.25 00:30:40 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2024.12.25 00:30:42 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.25 00:30:42 INFO  time: indexed workspace in 2.1s[0m
+2024.12.25 00:30:42 INFO  Selected port 5031[0m
+Dec 25, 2024 12:30:42 AM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 25, 2024 12:30:42 AM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 25, 2024 12:30:42 AM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 25, 2024 12:30:43 AM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.25 00:30:42 INFO  Started Metals http server at http://127.0.0.1:5031[0m
