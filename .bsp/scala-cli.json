@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/nt2311/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/nt2311/Projects/Scala/Basics/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/nt2311/Projects/Scala/Basics/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/nt2311/Projects/Scala/Basics/.scala-build/ide-envs.json",
+    "/home/nt2311/Projects/Scala/Basics"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

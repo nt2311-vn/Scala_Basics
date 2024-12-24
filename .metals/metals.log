@@ -1,0 +1,197 @@
+2024.12.24 23:56:28 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.24 23:56:29 INFO  Selected port 5031[0m
+Dec 24, 2024 11:56:29 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 24, 2024 11:56:29 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 24, 2024 11:56:29 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 24, 2024 11:56:29 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.24 23:56:29 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.24 23:56:31 INFO  Running List(/home/nt2311/.local/share/coursier/bin/scala-cli, setup-ide, /home/nt2311/Projects/Scala/Basics)[0m
+2024.12.24 23:56:31 INFO  Attempting to connect to the build server...[0m
+2024.12.24 23:56:31 INFO  Running BSP server List(/home/nt2311/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-options-v2.json, --json-launcher-options, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-launcher-options.json, --envs-file, /home/nt2311/Projects/Scala/Basics/.scala-build/ide-envs.json, /home/nt2311/Projects/Scala/Basics)[0m
+2024.12.24 23:56:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/nt2311/Projects/Scala/Basics/.metals/bsp.trace.json or /home/nt2311/.cache/metals/bsp.trace.json[0m
+2024.12.24 23:56:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.5.2/scala3-compiler_3-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.5.2/scala3-compiler_3-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.5.2/tasty-core_3-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.5.2/scala3-interfaces-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.5.2/tasty-core_3-3.5.2.pom[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.5.2/scala3-interfaces-3.5.2.pom[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2.jar[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.5.2/tasty-core_3-3.5.2.jar[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.5.2/scala3-compiler_3-3.5.2.jar[0m
+2024.12.24 23:56:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.5.2/scala3-interfaces-3.5.2.jar[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.5.2/scala3-interfaces-3.5.2.jar[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:33 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.5.2/tasty-core_3-3.5.2.jar[0m
+2024.12.24 23:56:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2.jar[0m
+2024.12.24 23:56:36 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:36 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:36 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:36 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:37 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:37 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.5.2/scala3-compiler_3-3.5.2.jar[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.2/scala3-sbt-bridge-3.5.2.pom[0m
+2024.12.24 23:56:37 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:37 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.2/scala3-sbt-bridge-3.5.2.pom[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.2/scala3-sbt-bridge-3.5.2.jar[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.2/scala3-sbt-bridge-3.5.2.jar[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2-sources.jar[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.2/scala3-library_3-3.5.2-sources.jar[0m
+2024.12.24 23:56:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2024.12.24 23:56:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2024.12.24 23:56:38 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2024.12.24 23:56:40 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:40 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:40 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:40 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:42 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:42 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:42 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:42 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:43 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  BSP server: Still downloading:[0m
+2024.12.24 23:56:44 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar (37.13 %, 933888 / 2515401)[0m
+2024.12.24 23:56:44 INFO  BSP server: [0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:44 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:45 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:45 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:45 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:48 WARN  no build target for: /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala[0m
+2024.12.24 23:56:48 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:49 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:50 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:50 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:50 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:50 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:52 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:52 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:52 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:52 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:52 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:53 INFO  BSP server: Still downloading:[0m
+2024.12.24 23:56:53 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar (78.70 %, 1979629 / 2515401)[0m
+2024.12.24 23:56:53 INFO  BSP server: [0m
+2024.12.24 23:56:54 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:54 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:54 INFO  no build target found for /home/nt2311/Projects/Scala/Basics/UserInput/userinput.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:56:53 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2024.12.24 23:56:54 INFO  time: Connected to build server in 23s[0m
+2024.12.24 23:56:54 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2024.12.24 23:56:54 INFO  running doctor check[0m
+2024.12.24 23:56:54 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.24 23:56:54 INFO  compiling basics_2771b90f11 (2 scala sources)[0m
+2024.12.24 23:56:56 INFO  time: compiled Basics_2771b90f11 in 1.92s[0m
+2024.12.24 23:56:59 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.24 23:57:05 INFO  time: indexed workspace in 11s[0m
+2024.12.24 23:57:32 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:57:32 INFO  Deduplicating compilation of Basics_2771b90f11 from bsp client 'scala-cli 1.5.4' (since 1m 0.842s)[0m
+2024.12.24 23:57:32 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:57:32 INFO  time: compiled Basics_2771b90f11 in 0.25s[0m
+2024.12.24 23:57:34 INFO  Cancelling compilation on scala-cli server[0m
+2024.12.24 23:57:34 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:57:34 INFO  time: compiled Basics_2771b90f11 in 0.24s[0m
+2024.12.24 23:57:34 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:57:34 INFO  time: compiled Basics_2771b90f11 in 0.23s[0m
+2024.12.24 23:57:34 INFO  time: Imported build in 0.5s[0m
+2024.12.24 23:57:34 INFO  time: Imported build in 0.44s[0m
+2024.12.24 23:57:34 INFO  running doctor check[0m
+2024.12.24 23:57:34 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.24 23:57:34 INFO  running doctor check[0m
+2024.12.24 23:57:34 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.24 23:57:35 INFO  time: indexed workspace in 1.16s[0m
+2024.12.24 23:57:35 INFO  time: indexed workspace in 1.16s[0m
+2024.12.24 23:58:07 INFO  Cancelling compilation on scala-cli server[0m
+2024.12.24 23:58:07 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:58:07 INFO  time: compiled Basics_2771b90f11 in 0.26s[0m
+2024.12.24 23:58:07 INFO  time: Imported build in 0.29s[0m
+2024.12.24 23:58:07 INFO  running doctor check[0m
+2024.12.24 23:58:07 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.24 23:58:07 INFO  time: Imported build in 0.24s[0m
+2024.12.24 23:58:07 INFO  running doctor check[0m
+2024.12.24 23:58:07 INFO  java targets: Basics_2771b90f11, Basics_2771b90f11-test[0m
+2024.12.24 23:58:08 INFO  time: indexed workspace in 1.02s[0m
+2024.12.24 23:58:08 INFO  time: indexed workspace in 1.03s[0m
+2024.12.24 23:58:16 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:58:16 INFO  Deduplicating compilation of Basics_2771b90f11 from bsp client 'scala-cli 1.5.4' (since 1m 45.022s)[0m
+2024.12.24 23:58:16 INFO  compiling basics_2771b90f11 (1 scala source)[0m
+2024.12.24 23:58:16 INFO  time: compiled Basics_2771b90f11 in 0.13s[0m
+2024.12.24 23:58:23 INFO  Shutting down server[0m
+2024.12.24 23:58:23 INFO  shutting down Metals[0m
+2024.12.24 23:58:23 INFO  Shut down connection with build server.[0m
+2024.12.24 23:58:23 INFO  BSP server: Dec 24, 2024 11:58:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2024.12.24 23:58:23 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2024.12.24 23:58:23 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2024.12.24 23:58:23 INFO  BSP server:   "method": "build/exit",[0m
+2024.12.24 23:58:23 INFO  BSP server:   "params": null[0m
+2024.12.24 23:58:23 INFO  BSP server: }[0m
+2024.12.24 23:58:23 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2024.12.24 23:58:23 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	... 13 more[0m
+2024.12.24 23:58:23 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:474)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2024.12.24 23:58:23 INFO  BSP server: 	... 15 more[0m
+2024.12.24 23:58:23 INFO  BSP server: [0m
+Dec 24, 2024 11:58:23 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
