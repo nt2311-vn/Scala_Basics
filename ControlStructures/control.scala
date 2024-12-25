@@ -1,7 +1,7 @@
-@main def main = forwardLoop(ints)
+@main def main = forwardLoop(10)
 
 var x = 5
-val ints = List(1, 2, 3, 4, 5)
+val items = List("item1", "item2", "item5", "item6")
 
 def controlFlow() =
   if (x > 0) {
@@ -12,5 +12,8 @@ def controlFlow() =
     println("negative")
   }
 
-def forwardLoop(list: List[Int]) =
-  for (num <- list) do println(num)
+def loopFromList(list: List[String]) =
+  for (item <- list) do println(item)
+
+def forwardLoop(n: Int) =
+  for (num <- 1 to n) do println(num)
