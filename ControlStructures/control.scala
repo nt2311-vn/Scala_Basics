@@ -1,4 +1,4 @@
-@main def main = forwardLoop(10)
+@main def main = skipLoop(10)
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
@@ -17,3 +17,9 @@ def loopFromList(list: List[String]) =
 
 def forwardLoop(n: Int) =
   for (num <- 1 to n) do println(num)
+
+def reverseLoop(n: Int) =
+  for (num <- n to 1 by -1) do println(num)
+
+def skipLoop(n: Int) =
+  for (num <- 1 to n by 2) do println(num)
