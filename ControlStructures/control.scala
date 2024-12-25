@@ -16,16 +16,20 @@ def controlFlow() =
   else println("negative")
 
 def loopFromList(list: List[String]) =
-  for (item <- list) do println(item)
+  for (item <- list)
+    println(item)
 
 def forwardLoop(n: Int) =
-  for (num <- 1 to n) do println(num)
+  for (num <- 1 to n)
+    println(num)
 
 def reverseLoop(n: Int) =
-  for (num <- n to 1 by -1) do println(num)
+  for (num <- n to 1 by -1)
+    println(num)
 
 def skipLoop(n: Int) =
-  for (num <- 1 to n by 2) do println(num)
+  for (num <- 1 to n by 2)
+    println(num)
 
 def guardLoop(list: List[String]) =
   for
