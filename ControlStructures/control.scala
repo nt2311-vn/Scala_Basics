@@ -1,4 +1,4 @@
-@main def main = guardLoop(items)
+@main def main = println(loopExpression(List(1, 2, 3)))
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
@@ -30,3 +30,7 @@ def guardLoop(list: List[String]) =
     i <- 1 to 3
     if item != "item5" && i == 2
   do println(s"$item $i")
+
+val loopExpression = (numbers: List[Int]) =>
+  for number <- numbers
+  yield number * 2
