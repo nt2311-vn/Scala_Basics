@@ -1,6 +1,8 @@
+@main def main = controlFlow()
+
 var x = 5
 
-@main def controlFlow() =
+def controlFlow() =
   if (x > 0) {
     println("postive")
   } else if (x == 0) {
@@ -8,4 +10,3 @@ var x = 5
   } else {
     println("negative")
   }
-
