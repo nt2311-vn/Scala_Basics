@@ -1,8 +1,10 @@
 @main def main =
-  var i = 0
-  while i < 3 do
-    println(i)
-    i += 1
+  println(whatDay(11))
+
+// var i = 0
+// while i < 3 do
+//   println(i)
+//   i += 1
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
@@ -37,3 +39,15 @@ val loopExpression = (numbers: List[Int]) =>
   yield number * 2
 
 val capNames = (guests: List[String]) => guests.map(name => name.capitalize)
+
+def whatDay(dayIdx: Int): String =
+  dayIdx match
+    case 0 => "Sunday"
+    case 1 => "Monday"
+    case 2 => "Tuesday"
+    case 3 => "Wednesday"
+    case 4 => "Thursday"
+    case 5 => "Friday"
+    case 6 => "Saturday"
+    // case _ => "invalid day" // default match all
+    case what => s"You gave a $what index day"
