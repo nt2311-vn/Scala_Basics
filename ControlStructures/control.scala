@@ -1,4 +1,8 @@
-@main def main = println(capNames(names))
+@main def main =
+  var i = 0
+  while i < 3 do
+    println(i)
+    i += 1
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
