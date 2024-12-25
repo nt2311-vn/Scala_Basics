@@ -1,4 +1,4 @@
-@main def main = skipLoop(10)
+@main def main = guardLoop(items)
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
@@ -23,3 +23,10 @@ def reverseLoop(n: Int) =
 
 def skipLoop(n: Int) =
   for (num <- 1 to n by 2) do println(num)
+
+def guardLoop(list: List[String]) =
+  for
+    item <- list
+    i <- 1 to 3
+    if item != "item5" && i == 2
+  do println(s"$item $i")
