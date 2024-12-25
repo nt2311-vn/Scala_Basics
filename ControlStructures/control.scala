@@ -1,16 +1,13 @@
-@main def main = println(loopExpression(List(1, 2, 3)))
+@main def main = println(capNames(names))
 
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
+val names = List("olivia", "tiger", "john")
 
 def controlFlow() =
-  if (x > 0) {
-    println("postive")
-  } else if (x == 0) {
-    println("zero")
-  } else {
-    println("negative")
-  }
+  if x > 0 then println("postive")
+  else if x == 0 then println("zero")
+  else println("negative")
 
 def loopFromList(list: List[String]) =
   for (item <- list) do println(item)
@@ -34,3 +31,5 @@ def guardLoop(list: List[String]) =
 val loopExpression = (numbers: List[Int]) =>
   for number <- numbers
   yield number * 2
+
+val capNames = (guests: List[String]) => guests.map(name => name.capitalize)
