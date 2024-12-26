@@ -1,5 +1,5 @@
 @main def main =
-  val d = Dog("Roger")
+  val d = Dog("Táu")
   println(d.speak())
   d.startTail()
   d.startRunning()
