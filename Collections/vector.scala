@@ -19,3 +19,5 @@
   println(c)
   println(d)
   println(e)
+
+  for (num <- e) do println(num)
