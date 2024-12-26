@@ -1,10 +1,12 @@
 @main def main =
+  case class Person(name: String)
   val x = (1 to 5).toList
   val y = List.range(1, 10, 3)
   val a = List(10, 20, 30, 40, 10, 50, 60)
   val sum = a.reduce(_ + _)
   val names = "Joel" :: "Chris" :: "Ed" :: Nil
   val mixTypeLists: List[Int | String | Double] = List(1, "three", 5.0)
+  val listAnyTypes: List[Any] = List(List(1, 2, 3), Person("Red"), "")
   val anotherSum = a.reduceLeft(_ + _)
   val sumPlus100 = a.foldLeft(100)(_ + _)
 
@@ -25,3 +27,4 @@
   println(sumPlus100)
   println(names)
   println(mixTypeLists)
+  println(listAnyTypes)
