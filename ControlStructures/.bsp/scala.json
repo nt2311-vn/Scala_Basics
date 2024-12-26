@@ -1,22 +1,22 @@
 {
   "name": "scala",
   "argv": [
-    "/home/nt2311/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.6.2/scala3-3.6.2-x86_64-pc-linux.tar.gz/scala3-3.6.2-x86_64-pc-linux/libexec/scala-cli",
+    "C:\\Users\\NguyenToan\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\scala\\scala3\\releases\\download\\3.6.2\\scala3-3.6.2-x86_64-pc-win32.zip\\scala3-3.6.2-x86_64-pc-win32\\libexec\\scala-cli.exe",
     "--cli-default-scala-version",
     "3.6.2",
     "--repository",
-    "file:///home/nt2311/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.6.2/scala3-3.6.2-x86_64-pc-linux.tar.gz/scala3-3.6.2-x86_64-pc-linux/maven2",
+    "file:///C:/Users/NguyenToan/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.6.2/scala3-3.6.2-x86_64-pc-win32.zip/scala3-3.6.2-x86_64-pc-win32/maven2",
     "--prog-name",
     "scala",
     "--skip-cli-updates",
     "bsp",
     "--json-options",
-    "/home/nt2311/Projects/Scala/Basics/ControlStructures/.scala-build/ide-options-v2.json",
+    "D:\\Work\\Project\\Git\\Scala\\Scala_Basics\\ControlStructures\\.scala-build\\ide-options-v2.json",
     "--json-launcher-options",
-    "/home/nt2311/Projects/Scala/Basics/ControlStructures/.scala-build/ide-launcher-options.json",
+    "D:\\Work\\Project\\Git\\Scala\\Scala_Basics\\ControlStructures\\.scala-build\\ide-launcher-options.json",
     "--envs-file",
-    "/home/nt2311/Projects/Scala/Basics/ControlStructures/.scala-build/ide-envs.json",
-    "/home/nt2311/Projects/Scala/Basics/ControlStructures/control.scala"
+    "D:\\Work\\Project\\Git\\Scala\\Scala_Basics\\ControlStructures\\.scala-build\\ide-envs.json",
+    "D:\\Work\\Project\\Git\\Scala\\Scala_Basics\\ControlStructures\\control.scala"
   ],
   "version": "1.5.4",
   "bspVersion": "2.1.1",
