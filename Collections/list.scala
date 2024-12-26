@@ -11,8 +11,12 @@
   val anotherSum = a.reduceLeft(_ + _)
   val sumPlus100 = a.foldLeft(100)(_ + _)
 
-  val b = 0 :: a
-  val c = List(-10, 0) ::: a
+  val b = 0 :: a // prepend one element
+  val c = List(-10, 0) ::: a // prepend another list
+  val snap = LazyList.range(1, Int.MaxValue)
+  snap.take(1)
+  snap.take(5)
+  snap.map(_ + 1)
 
   println(x)
   println(y)
@@ -34,3 +38,7 @@
   println(listAnyTypes)
   println(b)
   println(c)
+  println(snap)
+
+  // compute its element when needed (force)
+  snap.take(1000).foreach(println)
