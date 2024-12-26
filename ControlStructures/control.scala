@@ -1,10 +1,18 @@
-@main def main = println(verifyVariableType(Map("v" -> 0)))
+@main def main =
+  try writeTextToFile("Hello, Scala3!", "output.txt")
+  catch
+    case ioe: IOException           => println("Got an IOException")
+    case nfe: NumberFormatException => println("Got a NumberFormatException")
+  finally println("Clean up your resource here")
 
 // var i = 0
 // while i < 3 do
 //   println(i)
 //   i += 1
 //
+import java.io.BufferedWriter
+import java.io.FileWriter
+import java.io.IOException
 
 case class Person(name: String)
 var x = 5
@@ -71,3 +79,15 @@ def verifyVariableType(x: Matchable): String = x match
   case d: Double  => "Double"
   case l: List[?] => "List"
   case _          => "Unknown"
+
+def writeTextToFile(content: String, fileName: String) =
+  var writer: BufferedWriter | Null = null
+  try
+    writer = BufferedWriter(FileWriter(fileName))
+    writer.write(content)
+  catch
+    case ioe: IOException => println(s"Got an IOException: ${ioe.getMessage()}")
+  finally
+    if writer != null then
+      try writer.close()
+      catch case _: IOException => println("Failed to close writer")
