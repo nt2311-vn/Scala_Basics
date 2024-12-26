@@ -1,6 +1,6 @@
 case class Person(name: String)
 
-@main def main =
+@main def tuples =
   val t = (7, "eleven", Person("Mike"))
 
   // Tuple extract
