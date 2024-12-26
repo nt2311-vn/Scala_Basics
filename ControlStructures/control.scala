@@ -1,11 +1,11 @@
-@main def main =
-  println(whatPerson)
+@main def main = println(verifyVariableType(Map("v" -> 0)))
 
 // var i = 0
 // while i < 3 do
 //   println(i)
 //   i += 1
 //
+
 case class Person(name: String)
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
@@ -64,3 +64,10 @@ def whatPerson() =
       println(s"$name says, Yubba dubba doo")
     case Person(name) if name == "Bam Bam" => println(s"$name says, Bambam!")
     case _                                 => println("Watch the FlinStones!")
+
+def verifyVariableType(x: Matchable): String = x match
+  case s: String  => s"$s is a string"
+  case i: Int     => "Int"
+  case d: Double  => "Double"
+  case l: List[?] => "List"
+  case _          => "Unknown"
