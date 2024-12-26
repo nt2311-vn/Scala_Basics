@@ -1,3 +1,6 @@
+import java.io.BufferedReader
+import java.io.FileWriter
+
 @main def main =
   try writeTextToFile("Hello, Scala3!", "output.txt")
   catch
