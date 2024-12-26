@@ -1,14 +1,16 @@
 @main def main =
-  println(whatDay(11))
+  println(whatPerson)
 
 // var i = 0
 // while i < 3 do
 //   println(i)
 //   i += 1
-
+//
+case class Person(name: String)
 var x = 5
 val items = List("item1", "item2", "item5", "item6")
 val names = List("olivia", "tiger", "john")
+val p = Person("Fred")
 
 def controlFlow() =
   if x > 0 then println("postive")
@@ -55,3 +57,10 @@ def whatDay(dayIdx: Int): String =
     case 6 => "Saturday"
     // case _ => "invalid day" // default match all
     case what => s"You gave a $what index day"
+
+def whatPerson() =
+  p match
+    case Person(name) if name == "Fred" =>
+      println(s"$name says, Yubba dubba doo")
+    case Person(name) if name == "Bam Bam" => println(s"$name says, Bambam!")
+    case _                                 => println("Watch the FlinStones!")
