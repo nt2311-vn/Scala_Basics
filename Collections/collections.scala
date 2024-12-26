@@ -2,6 +2,9 @@
   val x = (1 to 5).toList
   val y = List.range(1, 10, 3)
   val a = List(10, 20, 30, 40, 10, 50, 60)
+  val sum = a.reduce(_ + _)
+  val anotherSum = a.reduceLeft(_ + _)
+  val sumPlus100 = a.foldLeft(100)(_ + _)
 
   println(x)
   println(y)
@@ -15,3 +18,6 @@
   println(a.tail)
   println(a.take(3))
   println(a.takeWhile(_ > 30))
+  println(sum)
+  println(anotherSum)
+  println(sumPlus100)
