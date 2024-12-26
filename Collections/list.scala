@@ -1,4 +1,5 @@
 @main def main =
+  // list is imutable when add or remove or perform any mutable operation to list we create new one
   case class Person(name: String)
   val x = (1 to 5).toList
   val y = List.range(1, 10, 3)
@@ -9,6 +10,9 @@
   val listAnyTypes: List[Any] = List(List(1, 2, 3), Person("Red"), "")
   val anotherSum = a.reduceLeft(_ + _)
   val sumPlus100 = a.foldLeft(100)(_ + _)
+
+  val b = 0 :: a
+  val c = List(-10, 0) ::: a
 
   println(x)
   println(y)
@@ -28,3 +32,5 @@
   println(names)
   println(mixTypeLists)
   println(listAnyTypes)
+  println(b)
+  println(c)
