@@ -7,7 +7,11 @@
     "SG" -> "Sai Gon",
     "VT" -> "Vung Tau"
   )
-
   /* Loop through a map to extract key, value */
 
   for (k, v) <- states do println(s"Abbreviation $k, name $v")
+
+  val emptyMap = Map()
+
+  println(states.size)
+  println(emptyMap.size)
