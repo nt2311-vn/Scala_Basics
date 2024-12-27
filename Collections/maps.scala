@@ -28,7 +28,7 @@
   println(s"DN now is ${newStates.getOrElse("DN", "key not exist")}")
 
   newStates = newStates ++ Seq("DN" -> "Da Nang", "HA" -> "Hoi An")
-  newStates = newStates - "HA"
+  newStates = newStates - "HA" - "DN"
 
   println(states.size)
   println(emptyMap.size)
