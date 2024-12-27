@@ -21,12 +21,13 @@ import scala.collection.mutable.ArrayBuffer
 
   // array buffer is mutable so add or remove direct modify the original array (modify the reference storage)
 
-  nums ++= List(5, 6)
+  nums ++= ArrayBuffer(5, 6)
   nums.prependAll(List(-1, 0))
   nums.prepend(-2)
 
   // update element in array buffer
   nums(0) = -3
+  nums.update(nums.length - 1, 2000)
 
   println(strings)
   println(ints)
