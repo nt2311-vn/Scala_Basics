@@ -13,8 +13,12 @@
   var b = Set('a', 'b', 'c')
   val c = a + 3 ++ Seq(4, 5)
 
+  b = b + 'd' ++ List('e', 'f', 'a')
+  b = b - 'a' -- Seq('b', 'e')
+
   println(emptyNums)
   println(emptyLetters)
   println(nums)
   println(letters)
   println(c)
+  println(b)
