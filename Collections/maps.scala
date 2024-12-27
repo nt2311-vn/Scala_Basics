@@ -13,5 +13,15 @@
 
   val emptyMap = Map()
 
+  /* Extract value from key */
+  val qn = states("QN")
+  val sg = states("SG")
+
+  // using get or else or with default value when init maps to avoid crash when access not exisit key
+  val dn = states.getOrElse("DN", "key not exist")
+
   println(states.size)
   println(emptyMap.size)
+  println(qn)
+  println(sg)
+  println(dn)
