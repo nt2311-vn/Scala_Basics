@@ -33,3 +33,12 @@ import java.util.{
 } // hide selected import and import all the other pacakges
 
 import java.util.{List as _, Map as _, Set as _, *} // hide multiple members
+
+package foo
+
+class ClassA:
+  import scala.util.Random
+  def printRandom(): Unit =
+    val r = new Random
+
+import java.lang.Math.*
