@@ -12,3 +12,7 @@
 
   println(clearerMakeInt("3"))
   println(clearerMakeInt("foo"))
+
+  clearerMakeInt("bar") match
+    case Some(i) => println(i)
+    case None    => println("Cannot make int on provided value")
