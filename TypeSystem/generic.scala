@@ -1,4 +1,3 @@
-import java.{util => ju}
 @main def generic =
   class Stack[A]:
     private var elements: List[A] = Nil
